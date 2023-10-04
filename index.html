@@ -25,7 +25,7 @@
     }
 
     section {
-        background-color: rgb(24, 24, 24);
+        background-color: rgb(10, 10, 10);
         width: 1000px;
 
         padding-left: 70px;
@@ -35,6 +35,18 @@
 
         margin-left: auto;
         margin-right: auto;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        gap: 120px;
+    }
+
+    .capa {
+        width: 1140px;
+        margin-left: -70px;
+        margin-top: -18px;
+        margin-bottom: -20px;
     }
 
     .coluna {
@@ -49,6 +61,7 @@
         flex-direction: row;
         gap: 10px;
     }
+
     .aside-video {
         width: 410px;
         align-items: center;
@@ -56,7 +69,7 @@
         padding: 5px;
         border: 2px solid rgb(255, 255, 255);
         border-radius: 20px;
-        
+
     }
 
     .aside-map {
@@ -67,16 +80,20 @@
         border: 2px solid rgb(255, 255, 255);
         border-radius: 7%;
     }
+    .gifs{
+        margin-left: -2px;
+        margin-right: -2px;
+    }
 
-   
 </style>
 
 <body>
 
     <section>
+        <img class="capa" src="friends.png" alt="foto_capa">
         <h1>Friends</h1>
         <hr>
-        <img src="friends.png" alt="foto_capa" width="350px">
+
         <p>
             Friends was a American comedy television show that ran from September
             22, 1994 to May 6 ,2004.
@@ -94,7 +111,17 @@
             <li>Joey.</li>
         </ul>
         </p>
-        <iframe src="https://giphy.com/embed/lPoxtQlcX30doRbHTN" width="190px"></iframe>
+        <nav class="gifs">
+            <iframe src="https://giphy.com/embed/fW5qirp4Nm9bC2qAHy" width="160" height="135"></iframe>
+            <iframe src="https://giphy.com/embed/lPoxtQlcX30doRbHTN" width="160" height="135"></iframe>
+            <iframe src="https://giphy.com/embed/jtirFYtVwG5a0o1t9o" width="160" height="135"></iframe>
+            <iframe src="https://giphy.com/embed/RiPMKUxoJEzR88oLwo" width="160" height="135"></iframe>
+            <iframe src="https://giphy.com/embed/LSFuticyU03MBczHlY" width="160" height="135"></iframe>
+            <iframe src="https://giphy.com/embed/SUQzS3BEeUhLnIhLtD" width="160" height="135"></iframe>
+            
+
+
+        </nav>
         <br>
         <h2>Friends intro </h2>
         <div class="cont">
